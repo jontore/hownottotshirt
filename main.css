@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "aasheim";
+    src: url("https://jontore.github.io/aasheim/aasheim.woff");
+  }
+
+  body {
+    font-family: 'futura';
+  }
+
+
+  html {
+    --main-color: rgb(220,13,59);
+    --secondary-color:  rgb(5,77,147);
+    --third-color: rgb(254,184, 75);
+  }
+
+  h1, h2 {
+      font-size: 8rem;
+      text-transform: lowercase;
+  }
+
+  h1, h2, h3, h4,
+  .app--title
+  {
+    font-family: "aasheim";
+    color: black;
+    text-decoration: normal;
+  }
+    .App {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: unset;
+    color: black;
+  }
+
+  section {
+      text-align: center;
+      padding: 10rem;
+      min-height: 50vh;
+  }
+
+  section:nth-child(3n+1) {
+    background-color: var(--secondary-color);
+  }
+
+  section:nth-child(3n+2) {
+    background-color: var(--main-color);
+  }
+
+  ul, li  {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  p, li, figure {
+      font-size: 2rem;
+  }
+
+  img {
+      width: 100%;
+  }
