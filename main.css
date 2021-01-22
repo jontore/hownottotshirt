@@ -19,15 +19,11 @@
       text-transform: lowercase;
   }
 
-  h1, h2, h3, h4,
-  .app--title
+  h1, h2, h3, h4
   {
     font-family: "aasheim";
     color: black;
     text-decoration: normal;
-  }
-    .App {
-    text-align: center;
   }
 
   a {
@@ -54,6 +50,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  li {
+      margin-top: 1rem;
   }
 
   p, li, figure {
